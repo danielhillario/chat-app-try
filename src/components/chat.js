@@ -24,9 +24,9 @@ function Chat() {
 
     useEffect(function () {
         getAllMsg();
-        // setInterval(function () {
-        //     getAllMsg();
-        // }, 1000);
+        setInterval(function () {
+            getAllMsg();
+        }, 1000);
     }, []);
 
     function handleSubmitMsg(event) {
